@@ -1,0 +1,16 @@
+{
+  "name": "electron-app",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "jquery": "^3.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "scripts": {
+    "dev": "parcel app.js -d dist && electron .",
+    "build": "parcel build app.js -d dist && electron-packager . --version=1.0.0 --electron-version=1.7.10 --overwrite"
+  }
+}
