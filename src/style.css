@@ -1,0 +1,33 @@
+/* rgb(213,213,213)
+233 151 72
+*/
+.calculator-app {
+    width: 200px;
+    background-color: rgb(41, 41, 48);
+    border-collapse:collapse;
+}
+.calculator-result {
+    text-align: right;
+    color: #fff;
+    padding: 0 5px;
+    height: 50px;
+}
+.inputs-btn {
+    box-sizing: border-box;
+    height: 50px;
+    text-align: center;
+    border: 1px rgb(41, 41, 48) solid;
+    border-right: none;
+    cursor: pointer;
+}
+.inputs-btn_normal {
+    width: 50px;
+    background-color: rgb(213, 213, 213)
+}
+.inputs-btn_long {
+    width: 100px;
+    background-color: rgb(213, 213, 213)
+}
+.inputs-btn_rightcol {
+    background-color: rgb(233, 151, 72)
+}
