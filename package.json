@@ -1,11 +1,9 @@
 {
-  "name": "electron-app",
+  "name": "electron-Calculator",
   "license": "MIT",
+  "author": "kurset",
   "version": "0.0.1",
   "main": "index.js",
-  "devDependencies": {
-    "jquery": "^3.2.1"
-  },
   "scripts": {
     "dev": "electron ."
   },
