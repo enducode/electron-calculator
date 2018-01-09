@@ -4,8 +4,14 @@
     <title>Hello World!</title>
     <style>
        *{
-         margin: 0;
-         padding: 0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+       }
+       #app {
+            overflow: hidden;
+            -webkit-user-select: none;
+            -webkit-app-region: drag;
        }
     </style>
     <link rel="stylesheet" href="./src/style.css">
@@ -51,7 +57,7 @@
                 <td class="inputs-btn inputs-btn_normal"
                     onclick="clickItem('5')">5</td>
                 <td class="inputs-btn inputs-btn_normal"
-                    onclick="clickItem('7')">6</td>
+                    onclick="clickItem('6')">6</td>
                 <td class="inputs-btn inputs-btn_rightcol"
                     onclick="clickItem('-')">-</td>
             </tr>
@@ -63,7 +69,7 @@
                 <td class="inputs-btn inputs-btn_normal"
                     onclick="clickItem('3')">3</td>
                 <td class="inputs-btn inputs-btn_rightcol"
-                    onclick="clickItem('4')">+</td>
+                    onclick="clickItem('+')">+</td>
             </tr>
             <tr class='calculator-inputs'>
                 <td 
