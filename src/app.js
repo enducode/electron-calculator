@@ -1,5 +1,5 @@
 const Calculator = require('./src/Calculator');
-var fs = require('fs');
+import fs from 'fs';
 
 const resultDOM = document.querySelector('.calculator-result');
 
